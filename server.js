@@ -3,7 +3,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res, next) {
-    res.json("HOME PAGE");
+    res.json("HOME PAGE rr");
 });
 
 app.get('/catfish', function(req, res, next) {
